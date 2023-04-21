@@ -68,6 +68,37 @@ const TAX_RATE = 0.08;
 
 console.log(TAX_RATE)
 
+/* Bloco IF: */
+
+
 console.log("\nBloco IF\n")
-console.log()
-//a
+
+var bank_balance = 302.13;
+var amount2 = 99.99
+
+amount = amount * 2
+if(amount < bank_balance){
+    console.log("I'll take the accessory!")
+} else {
+    console.log("No, thanks.")
+}
+
+/* Loops: */
+
+console.log("\nLoops\n")
+
+for(var i = 0; i <= 9; i++){
+    console.log(i)
+}
+
+/* Funções: */
+
+console.log("\nFunções\n")
+
+var amount3 = 99.99 * 2;
+
+printAmount(amount3)
+
+function printAmount(amount){
+    console.log(amount)
+}
