@@ -226,7 +226,7 @@ console.log("\nTranspilling\n");
 /* Quando uma nova sintaxe é inserida na linguagem, não há como efetuar o polyfill, porém, é
 * possível usarmos uma ferramenta que converte o código novo em códigos antigos que são equivalentes. */
 
-/* Isso é usado no TypeScript, por exemplo. Um transpilador muito utilizado é o Babel. */
+/* Isso é usado no TypeScript, por exemplo. Um transpilador muito utilizadogi é o Babel. */
 
 /* Funções como o "getElementById()" ou o "alert()" são providas pelo browser, e não pelo JS. O DOM, por
 * exemplo, é implementado usando C e C++. */
